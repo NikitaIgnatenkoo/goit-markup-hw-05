@@ -626,3 +626,7 @@ margin-bottom: 8px;
 }
 
 
+
+.modal-input-coment::placeholder {
+    color: rgba(46, 47, 66, 0.4);
+}
