@@ -630,3 +630,14 @@ margin-bottom: 8px;
 .modal-input-coment::placeholder {
     color: rgba(46, 47, 66, 0.4);
 }
+
+
+.modal-label {
+display: inline-block;
+margin-bottom: 4;
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: 0.04em;
+color: #8e8f99;
+}
