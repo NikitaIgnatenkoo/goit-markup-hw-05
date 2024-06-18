@@ -537,7 +537,16 @@ fill: #f4f4fd
     background-color: rgba(46, 47, 66, 0.4);;
 }
 
-.modal {}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    background-color: #fcfcfc;
+    width: 408px;
+    min-height: 584px;
+    border-radius: 4px;
+}
 
 .modal-close-btn {}
 
