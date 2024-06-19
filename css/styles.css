@@ -548,7 +548,18 @@ visibility: visible;
 pointer-events: auto;
 }
 
+.footer-subscribe {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
 
+.email-input {
+display: flex;
+}
 
 .modal {
 position: absolute;
