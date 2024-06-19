@@ -677,7 +677,7 @@ resize: none;
 }
 
 .modal-comment:focus {
-    border-color: #4D5AE5;
+border-color: #4D5AE5;
 }
 
 
@@ -697,6 +697,7 @@ height: 16px;
 display: flex;
 align-items: center;
 justify-content: center;
+border-color: #2e2f42;
 border-radius: 2px;
 border: 1px solid var rgba(46, 47, 66, 0.4);
 margin-right: 8px;
