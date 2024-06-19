@@ -609,6 +609,11 @@ margin-bottom: 16px;
 margin-bottom: 8px;
 }
 
+.modal-field-text {
+margin-bottom: 16px;
+}
+
+
 .modal-label {
 display: inline-block;
 font-weight: 400;
