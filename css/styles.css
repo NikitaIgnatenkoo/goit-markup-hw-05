@@ -694,7 +694,9 @@ align-items: center;
 .modal-check-text span {
 width: 16px;
 height: 16px;
-display: block; 
+display: flex;
+align-items: center;
+justify-content: center;
 border-radius: 2px;
 border: 1px solid var rgba(46, 47, 66, 0.4);
 margin-right: 8px;
