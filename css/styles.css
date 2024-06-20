@@ -557,8 +557,55 @@ color: #FFFFFF;
 margin-bottom: 16px;
 }
 
-.email-input {
+.form-email {
 display: flex;
+gap: 24px;
+}
+
+.email-input {
+border: 1px solid var #ffffff;
+background-color: transparent;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+padding-left: 16px;
+color: #ffffff;
+border-radius: 4px;
+width: 264px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.email-input::placeholder {
+color: #ffffff;
+}
+
+.subscribe-btn {
+min-width: 165px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Roboto",sans-serif;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #ffffff;
+font-size: 16px;
+font-weight: 500;
+border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+
+}
+
+.subsribe-icon{
+margin-left: 16px;
+
 }
 
 .modal {
